@@ -1,0 +1,27 @@
+### Mostrar saldo actual para una cuenta de ahorro
+GET http://localhost:8000/api/cuentas/1/saldo
+Accept: application/json
+
+
+
+### Mostrar interés aplicado para una cuenta de ahorro
+GET http://localhost:8000/api/cuentas/1/interes
+Accept: application/json
+
+
+
+### Mostrar límite de descubierto para una cuenta corriente
+GET http://localhost:8000/api/cuentas/2/limite_descubierto
+Accept: application/json
+
+
+
+### Mostrar información del titular para una cuenta de ahorro
+GET http://localhost:8000/api/cuentas/1/info_titular
+Accept: application/json
+
+
+
+### Mostrar información del titular para una cuenta corriente
+GET http://localhost:8000/api/cuentas/2/info_titular
+Accept: application/json
